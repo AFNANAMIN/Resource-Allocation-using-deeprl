@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-2000"
+all_model_checkpoint_paths: "model-1920"
+all_model_checkpoint_paths: "model-1940"
+all_model_checkpoint_paths: "model-1960"
+all_model_checkpoint_paths: "model-1980"
+all_model_checkpoint_paths: "model-2000"

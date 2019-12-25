@@ -1,0 +1,36 @@
+band            : 10000000.0
+buffer_size     : 100000
+demand_max      : 60000000.0
+demand_min      : 50000000.0
+dir_log         : ./dev\cran\data\log
+dir_mod         : ./dev\cran\data\mod
+dir_sum         : ./dev\cran\data\sum
+episodes        : 100
+epochs          : 10
+epsilon_final   : 0.01
+epsilon_init    : 0.5
+epsilon_steps   : 4000
+eta             : 0.25
+gamma           : 0.99
+load_id         : None
+lr              : 0.001
+mini_batch      : 64
+num_rrh         : 6
+num_usr         : 3
+observations    : 100
+pow_gap         : 3.0
+pow_on          : 6.8
+pow_slp         : 4.3
+pow_tsm         : 1.0
+random_seed     : 10000
+run_id          : 11-07-07-59-47
+save_ep         : 20
+tests           : 20
+theta_2         : 6.3095734448e-14
+tm              : 1
+update          : 8
+| Episode: 20 | Demand: [5.422 5.997 5.652] | Epsilon: 0.4975 | Agent-steps: 20 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 6 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 2 | Ep-action: [(0, 4), (2, 3), (3, 1), (6, 1), (7, 1), (8, 1), (9, 2), (10, 1), (11, 3), (12, 3)] | Init-state: 1-1-1-1-1-1 | Final-state: 1-0-1-0-0-0
+| Episode: 40 | Demand: [5.519 5.209 5.781] | Epsilon: 0.4951 | Agent-steps: 41 | Length: before 21 after 1 | Ep-max-reward: 0.2567 | Ep-min-reward: 0.0000 | Ep-rnd-reward: 6 0.2567 | Ep-reward: 0.1807 | Ep-max-power: 57.6620 | Ep-min-power: 0.0000 | Ep-rnd-power: 57.6620 | Ep-power: 60.6620 | Num-rrh-on: 3 | Ep-action: [(0, 2), (1, 2), (2, 8), (4, 1), (5, 1), (6, 1), (7, 2), (10, 1), (11, 3)] | Init-state: 1-1-1-1-1-1 | Final-state: 0-1-1-0-1-0
+| Episode: 60 | Demand: [5.515 5.03  5.074] | Epsilon: 0.4926 | Agent-steps: 63 | Length: before 22 after 2 | Ep-max-reward: 0.3596 | Ep-min-reward: 0.0000 | Ep-rnd-reward: 6 0.3596 | Ep-reward: 0.3596 | Ep-max-power: 53.5956 | Ep-min-power: 0.0000 | Ep-rnd-power: 53.5956 | Ep-power: 53.5956 | Num-rrh-on: 4 | Ep-action: [(0, 5), (2, 2), (4, 3), (6, 1), (7, 1), (8, 1), (9, 5), (11, 3), (12, 1)] | Init-state: 1-1-1-1-1-1 | Final-state: 1-1-1-1-0-0
+| Episode: 80 | Demand: [5.273 5.127 5.403] | Epsilon: 0.4902 | Agent-steps: 84 | Length: before 21 after 1 | Ep-max-reward: 0.2684 | Ep-min-reward: 0.0000 | Ep-rnd-reward: 6 0.2684 | Ep-reward: 0.1924 | Ep-max-power: 57.1988 | Ep-min-power: 0.0000 | Ep-rnd-power: 57.1988 | Ep-power: 60.1988 | Num-rrh-on: 5 | Ep-action: [(0, 5), (1, 2), (2, 4), (3, 2), (6, 1), (7, 1), (10, 2), (11, 2), (12, 2)] | Init-state: 1-1-1-1-1-1 | Final-state: 1-1-1-1-1-0
+| Episode: 100 | Demand: [5.164 5.69  5.789] | Epsilon: 0.4877 | Agent-steps: 104 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 6 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 3 | Ep-action: [(0, 3), (2, 4), (3, 1), (6, 1), (7, 2), (8, 1), (9, 2), (10, 1), (11, 2), (12, 3)] | Init-state: 1-1-1-1-1-1 | Final-state: 1-0-1-0-0-1

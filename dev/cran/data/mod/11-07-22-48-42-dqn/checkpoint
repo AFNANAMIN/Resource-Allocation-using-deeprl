@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-400"
+all_model_checkpoint_paths: "model-320"
+all_model_checkpoint_paths: "model-340"
+all_model_checkpoint_paths: "model-360"
+all_model_checkpoint_paths: "model-380"
+all_model_checkpoint_paths: "model-400"

@@ -1,0 +1,36 @@
+band            : 10000000.0
+buffer_size     : 100000
+demand_max      : 60000000.0
+demand_min      : 50000000.0
+dir_log         : ./dev\cran\data\log
+dir_mod         : ./dev\cran\data\mod
+dir_sum         : ./dev\cran\data\sum
+episodes        : 100
+epochs          : 10
+epsilon_final   : 0.01
+epsilon_init    : 0.5
+epsilon_steps   : 4000
+eta             : 0.25
+gamma           : 0.99
+load_id         : None
+lr              : 0.001
+mini_batch      : 64
+num_rrh         : 10
+num_usr         : 8
+observations    : 100
+pow_gap         : 3.0
+pow_on          : 6.8
+pow_slp         : 4.3
+pow_tsm         : 1.0
+random_seed     : 10000
+run_id          : 12-24-11-54-20
+save_ep         : 20
+tests           : 10
+theta_2         : 6.3095734448e-14
+tm              : 1
+update          : 8
+| Episode: 20 | Demand: [5.905 5.869 5.494 5.401 5.819 5.946 5.084 5.542] | Epsilon: 0.4975 | Agent-steps: 20 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 10 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 1 | Ep-action: [(1.0, 20)] | Init-state: 1-1-1-1-1-1-1-1-1-1 | Final-state: 0-0-0-0-0-0-0-1-0-0
+| Episode: 40 | Demand: [5.229 5.087 5.468 5.05  5.351 5.726 5.867 5.625] | Epsilon: 0.4951 | Agent-steps: 40 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 10 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 6 | Ep-action: [(1.0, 20)] | Init-state: 1-1-1-1-1-1-1-1-1-1 | Final-state: 1-1-1-1-0-0-0-0-1-1
+| Episode: 60 | Demand: [5.592 5.768 5.307 5.537 5.045 5.194 5.273 5.472] | Epsilon: 0.4926 | Agent-steps: 60 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 10 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 6 | Ep-action: [(1.0, 20)] | Init-state: 1-1-1-1-1-1-1-1-1-1 | Final-state: 0-1-1-1-0-1-0-1-0-1
+| Episode: 80 | Demand: [5.314 5.611 5.716 5.076 5.002 5.573 5.64  5.496] | Epsilon: 0.4902 | Agent-steps: 80 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 10 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 5 | Ep-action: [(1.0, 20)] | Init-state: 1-1-1-1-1-1-1-1-1-1 | Final-state: 0-1-1-0-0-1-0-1-1-0
+| Episode: 100 | Demand: [5.953 5.669 5.108 5.311 5.279 5.711 5.484 5.237] | Epsilon: 0.4877 | Agent-steps: 100 | Length: before 20 after 0 | Ep-max-reward: nan | Ep-min-reward: nan | Ep-rnd-reward: 10 nan | Ep-reward: nan | Ep-max-power: nan | Ep-min-power: nan | Ep-rnd-power: nan | Ep-power: nan | Num-rrh-on: 7 | Ep-action: [(1.0, 20)] | Init-state: 1-1-1-1-1-1-1-1-1-1 | Final-state: 1-1-0-1-1-1-0-1-0-1

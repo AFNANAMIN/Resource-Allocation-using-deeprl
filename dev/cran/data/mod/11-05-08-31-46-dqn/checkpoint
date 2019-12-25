@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-4080"
+all_model_checkpoint_paths: "model-4000"
+all_model_checkpoint_paths: "model-4020"
+all_model_checkpoint_paths: "model-4040"
+all_model_checkpoint_paths: "model-4060"
+all_model_checkpoint_paths: "model-4080"

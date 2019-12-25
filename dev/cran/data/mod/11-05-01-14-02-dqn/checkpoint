@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-3100"
+all_model_checkpoint_paths: "model-3020"
+all_model_checkpoint_paths: "model-3040"
+all_model_checkpoint_paths: "model-3060"
+all_model_checkpoint_paths: "model-3080"
+all_model_checkpoint_paths: "model-3100"
