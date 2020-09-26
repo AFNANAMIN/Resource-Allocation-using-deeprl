@@ -1,4 +1,4 @@
-# Dqn,double dqn and dueiling dqn
+# Dqn,Double Dqn and Dueiling Dqn
  Deep Reinforcement Learning Based Dynamic Resource Allocation 
 
 ![Test Image 1](1.jpeg)
