@@ -2,7 +2,7 @@ import collections
 import tflearn
 import tensorflow as tf
 import numpy as np
-from Agent.dqnet import DQNetwork
+from dqnet import DQNetwork
 #from Agent.dqnet import DoubleDQNetwork
 from Utils.explorer import Explorer
 from Utils.replaybuffer import ReplayBuffer
@@ -27,8 +27,6 @@ average_slot_power = []
 #----------------------
 
 class DoubleDQNAgent:
-    
-    
 
     def __init__(self, env, config):
         self._sess = tf.Session()
